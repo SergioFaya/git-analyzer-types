@@ -1,0 +1,29 @@
+{
+	"name": "git-analyzer-types",
+	"version": "1.1.4",
+	"description": "Data types for git-analyzer-* projects",
+	"main": "dst/index.js",
+	"types": "dst/index.d.ts",
+	"scripts": {
+		"compile": "rimraf out && tsc",
+		"preinstall": "npm run compile",
+		"prepublish": "npm run compile"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SergioFaya/git-analyzer-types.git"
+	},
+	"keywords": [
+		"types",
+		"models"
+	],
+	"author": "SergioFaya",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/SergioFaya/git-analyzer-types/issues"
+	},
+	"homepage": "https://github.com/SergioFaya/git-analyzer-types#readme",
+	"devDependencies": {
+		"typescript": "^3.5.1"
+	}
+}

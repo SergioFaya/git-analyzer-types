@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"newLine": "LF",
+		"preserveConstEnums": true,
+		"removeComments": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": true,
+		"module": "commonjs",
+		"esModuleInterop": true,
+		"target": "es6",
+		"pretty": true,
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"sourceMap": true,
+		// definir donde se va a exportar el paquete
+		"outDir": "dst",
+		"rootDir": "src",
+		//
+		"baseUrl": ".",
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitReturns": true,
+		"strict": true,
+		"paths": {
+			"*": [
+				"node_modules/*",
+			]
+		},
+		"lib": [
+			"es2015",
+			"dom"
+		]
+	}
+}
