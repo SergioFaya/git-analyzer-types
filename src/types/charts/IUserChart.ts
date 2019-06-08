@@ -21,12 +21,14 @@ export interface IUserChart {
 	// repos_url: string;
 	// events_url: string;
 	// received_events_url: string;
-	type: UserType;
+	// type: UserType;
 	site_admin: boolean;
 	contributions: number;
 }
 
+/*
 enum UserType {
 	Org = 'Org',
 	User = 'User',
 }
+*/

@@ -1,11 +1,11 @@
 export interface IUserData {
-	id: number | undefined;
-	username: string | undefined;
-	login: string | undefined;
-	email: string | undefined;
-	imageUrl: string | undefined;
-	type: UserType | undefined;
-	name: string | undefined;
+	id?: number;
+	username?: string;
+	login?: string;
+	email?: string;
+	imageUrl?: string;
+	type?: UserType;
+	name?: string;
 }
 
 export enum UserType {
