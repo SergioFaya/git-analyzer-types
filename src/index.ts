@@ -12,6 +12,7 @@ export { IUserRepoStats } from './types/charts/pie/IUserRepoStats';
 export { Sequence } from './types/dbSequences/Sequence';
 // Root
 export { ICodeReview } from './types/ICodeReview';
+export { Iissue } from './types/Iissue';
 // Root
 export { IOrg } from './types/IOrg';
 export { IRepo } from './types/IRepo';
