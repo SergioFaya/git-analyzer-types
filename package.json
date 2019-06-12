@@ -1,6 +1,6 @@
 {
 	"name": "git-analyzer-types",
-	"version": "1.1.18",
+	"version": "1.1.20",
 	"description": "Data types for git-analyzer-* projects",
 	"main": "dst/index.js",
 	"types": "dst/index.d.ts",
@@ -24,6 +24,7 @@
 	},
 	"homepage": "https://github.com/SergioFaya/git-analyzer-types#readme",
 	"devDependencies": {
+		"rimraf": "^2.6.3",
 		"typescript": "^3.5.1"
 	}
 }

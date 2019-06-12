@@ -18,3 +18,4 @@ export { IOrg } from './types/IOrg';
 export { IRepo } from './types/IRepo';
 export { IUserData, UserType } from './types/IUserData';
 
+export { ICommit, IDecoratedCommit, ICommitAuthor } from './types/ICommit';

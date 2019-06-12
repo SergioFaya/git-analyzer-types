@@ -1,5 +1,8 @@
 export interface IUserData {
 	id?: number;
+	/**
+	 * @deprecated
+	 */
 	username?: string;
 	login?: string;
 	email?: string;
