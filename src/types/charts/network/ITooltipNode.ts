@@ -3,5 +3,5 @@ export interface ITooltipNode {
 	message: string;
 	date: string;
 	committer: string;
-	// or user
+	url: string;
 }
