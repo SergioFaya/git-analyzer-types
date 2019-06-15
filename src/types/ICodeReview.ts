@@ -1,12 +1,14 @@
+import { IRepo } from './IRepo';
 import { IUserData } from './IUserData';
 
 export interface ICodeReview {
-	title?: string,
-	created_at?: Date,
-	created_by?: IUserData,
-	commentary?: string,
+	title?: string;
+	created_at?: Date;
+	created_by?: IUserData;
+	commentary?: string;
+	repository?: IRepo;
 	//	userEvaluations?: Array<IUserEvaluation>
-	calification?: number,
+	calification?: number;
 }
 
 /*
