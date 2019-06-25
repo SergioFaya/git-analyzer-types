@@ -4,7 +4,7 @@ export interface IEdgeNetworkChart {
 	source: string,
 	target: string,
 	size: number,
-	// '#fffff'
+	// with hex format '#fffff'
 	color: string,
 	type: EdgeType
 }
