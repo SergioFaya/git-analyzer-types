@@ -22,9 +22,3 @@ export interface Owner {
 export enum OwnerType {
 	ORG = 'Organization', USER = 'User'
 }
-
-export interface Permissions {
-	admin: boolean;
-	push: boolean;
-	pull: boolean;
-}
